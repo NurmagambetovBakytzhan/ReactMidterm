@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './userPage.css'
 function UserProfile() {
     const [userData, setUserData] = useState({
         name: 'John',
@@ -15,7 +15,7 @@ function UserProfile() {
     };
 
     return (
-        <div>
+        <div className={"user-profile"}>
             <h1>User Profile</h1>
             <form>
                 <div>

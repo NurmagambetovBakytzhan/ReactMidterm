@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axiosInstance from "../../shared/configs/axios-config";
-
+import './post.css'
 
 function PostPage() {
     const { postId } = useParams();

@@ -39,13 +39,13 @@ function Home() {
     };
 
     return (
-        <div>
+        <div className={"post-list"}>
             <h1>Home Page</h1>
 
             {loading ? (
                 <p>Loading...</p>
             ) : (
-                <ul>
+                <ul className={"post-item"}>
                     {posts.map((post) => (
                         <li key={post.id}>
                             <h2>{post.title}</h2>
